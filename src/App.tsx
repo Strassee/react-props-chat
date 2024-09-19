@@ -8,7 +8,7 @@ function App() {
     <div className="clearfix container">
     <div className="chat">
       <div className="chat-history">
-        {messages.length != 0 ? <MessageHistory list={messages} /> : ''}
+        {messages.length !== 0 ? <MessageHistory list={messages} /> : ''}
       </div>
     </div>  
   </div>
